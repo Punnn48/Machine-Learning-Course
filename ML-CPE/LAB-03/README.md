@@ -1,1 +1,5 @@
-
+Introduction & Data Preparation: Imported necessary libraries to load and process the data (2).csv dataset. Handled missing values by replacing '?' with NaN and filling them using the column mean.
+Linear Regression (Age Prediction): Separated features and target (y, age). Split the data into 80% training and 20% testing sets, applied StandardScaler, and used PCA to reduce dimensions before training a Linear Regression model evaluated using MAE and RMSE.
+Classification (Gender Prediction): Set features (X, excluding sex) and target (y, sex where 1 = male, 0 = female). Followed the preprocessing pipeline and trained a Logistic Regression model, evaluating performance using Accuracy, Precision, Recall, F1-score, and ROC-AUC.
+Confusion Matrix & Decision Boundary: Generated a confusion matrix heatmap to visualize correct and incorrect classifications. Reduced data to 2 dimensions via PCA to plot a 2D decision boundary contour graph.
+Confusion Matrix & Decision Boundary: Generated a confusion matrix heatmap to visualize correct and incorrect classifications. Reduced data to 2 dimensions via PCA to plot a 2D decision boundary contour graph.
