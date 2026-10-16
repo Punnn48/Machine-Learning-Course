@@ -1,0 +1,17 @@
+path: ../dataset  # dataset root dir
+train: train/images
+val: val/images
+test: test/images
+
+# Classes (ตัวอย่างคลาส 10 คลาสตาม BDD10K หรือปรับตาม dataset ของคุณ)
+names:
+  0: person
+  1: rider
+  2: car
+  3: bus
+  4: truck
+  5: bike
+  6: motor
+  7: traffic light
+  8: traffic sign
+  9: train
